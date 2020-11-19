@@ -8,3 +8,7 @@ def hello():
 @app.route("/barcelonaActiva")
 def newEndPoint():
     return "/barcelonaActiva/Python Funnnciona :)"
+
+@app.route("/renderingTemplate")
+def rendertemplate():
+    return render_template("template1.html")
